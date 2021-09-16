@@ -10,10 +10,10 @@
     <color name="colorPrimary">#673AB7</color>
     <color name="colorPrimaryDark">#512DA8</color>
     <color name="colorAccent">#FF5252</color>
-    <color name="editText_TextColorHint">#ffffff</color>
-    <color name="editText_TextColorPrimary">#ffffff</color>
-    <color name="editText_colorControlNormal">#ffffff</color>
-    <color name="editText_colorControlActivated">#ffffff</color>
+
+
+    <color name="editText_white">#ffffff</color>
+    <color name="editText_black">#000000</color>
 
     <color name="button_TextColor">#ffffff</color>
 
