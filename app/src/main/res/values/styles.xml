@@ -1,3 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- customize your theme-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark" type="">@color/colorPrimaryDark</item>
+        <item name="colorAccent" type="">@color/colorAccent</item>
+
+    </style>
+    <style name="EditTextWhite" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/editText_textSize</item>
+        <item name="android:textColorHint">@color/editText_TextColorHint</item>
+        <item name="android:textColorPrimary">@color/editText_TextColorPrimary</item>
+        <item name="colorControlNormal">@color/editText_colorControlNormal</item>
+        <item name="colorControlActivated">@color/editText_colorControlActivated</item>
+    </style>
+    <style name="RaiseButtonDark" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@color/button_TextColor</item>
+    </style>
 </resources>
