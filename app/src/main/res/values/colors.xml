@@ -14,5 +14,8 @@
     <color name="editText_TextColorPrimary">#ffffff</color>
     <color name="editText_colorControlNormal">#ffffff</color>
     <color name="editText_colorControlActivated">#ffffff</color>
+
     <color name="button_TextColor">#ffffff</color>
+
+    <color name="textView_TextColor">#ffffff</color>
 </resources>

@@ -4,4 +4,5 @@
     <dimen name="login_MarginHorizontalMargin">40dp</dimen>
     <dimen name="login_MarginTop">20dp</dimen>
     <dimen name="imageView_layoutHeight">150dp</dimen>
+    <dimen name="textView_textSize">18sp</dimen>
 </resources>

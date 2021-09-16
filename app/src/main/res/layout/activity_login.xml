@@ -22,15 +22,22 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/imageView_layoutHeight"
-                android:src="@drawable/infogram"/>
+                android:src="@drawable/infogram"
+                android:contentDescription="TODO" />
 
         </RelativeLayout>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:fillViewport="true">
+
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_weight="0.4"
             android:layout_marginLeft="@dimen/login_MarginHorizontalMargin"
             android:layout_marginRight="@dimen/login_MarginHorizontalMargin">
 
@@ -69,13 +76,34 @@
                 android:layout_marginTop="@dimen/login_MarginTop"
                 android:theme="@style/RaiseButtonDark"> </Button>
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+            >
+            <TextView
+                    android:id="@+id/no_tienes_cuenta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_tienes_cuenta"
+                    android:textSize="@dimen/textView_textSize"
+                    android:textColor="@color/textView_TextColor"/>
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-           android:fillViewport="true">
-        </ScrollView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/no_tienes_cuenta"
+                    android:minHeight="48dp"
+                    android:onClick="goCreateAccount"
+                    android:text="@string/crea_una_aqui"
+                    android:textColor="@color/textView_TextColor"
+                    android:textSize="@dimen/textView_textSize"
+                    android:textStyle="bold" />
 
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
     </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
